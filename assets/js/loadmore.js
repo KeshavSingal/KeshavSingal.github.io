@@ -17,3 +17,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
+
+  // This code is suggested by AI chatpgt, and edit by me 
