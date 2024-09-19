@@ -1,3 +1,5 @@
+<img width="746" alt="image" src="https://github.com/user-attachments/assets/85140a5a-28d9-4f3f-bffe-c1a84ceb957b">
+
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
