@@ -332,6 +332,23 @@ h3 {
   top: 0;
 }
 
+.hidden {
+  display: none;
+}
+
+.load-more-btn {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  background-color: #004d40;
+}
+
+
 /* #intro.section .container *:not(span) {
   font-weight: 300;
   line-height: 150%;

@@ -1,15 +1,19 @@
-document.getElementById('load-more').addEventListener('click', function() {
-    // Find all hidden project items
-    let hiddenItems = document.querySelectorAll('.project-item.hidden');
+document.addEventListener("DOMContentLoaded", function () {
+    const loadMoreBtn = document.getElementById("load-more");
+    let hiddenProjects = document.querySelectorAll(".project-item.hidden");
+    let showCount = 3;  // Number of projects to show on each click
   
-    // Show the first 3 hidden items
-    for (let i = 0; i < 3 && i < hiddenItems.length; i++) {
-      hiddenItems[i].classList.remove('hidden');
-    }
+    loadMoreBtn.addEventListener("click", function () {
+      for (let i = 0; i < showCount && hiddenProjects.length > 0; i++) {
+        hiddenProjects[i].classList.remove("hidden");
+      }
+      // Update the list of hidden projects
+      hiddenProjects = document.querySelectorAll(".project-item.hidden");
   
-    // If there are no more hidden items, hide the 'Load More' button
-    if (document.querySelectorAll('.project-item.hidden').length === 0) {
-      document.getElementById('load-more').style.display = 'none';
-    }
+      // If no more hidden projects, hide the button
+      if (hiddenProjects.length === 0) {
+        loadMoreBtn.style.display = "none";
+      }
+    });
   });
   
