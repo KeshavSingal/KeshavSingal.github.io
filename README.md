@@ -1,4 +1,8 @@
+Activity 1
 <img width="746" alt="image" src="https://github.com/user-attachments/assets/85140a5a-28d9-4f3f-bffe-c1a84ceb957b">
+
+Activity 2
+<img width="876" alt="image" src="https://github.com/user-attachments/assets/81a8d095-e7c9-4392-a42a-baab89ed0898">
 
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
