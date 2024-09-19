@@ -3,6 +3,10 @@
 
 > https://varadbhogayata.github.io
 
+Name: Keshav S
+Computer Engineering Student @ University of Toronto
+Prev SWE Intern @Citi Bank
+
 ![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
 ![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/varadbhogayata/varadbhogayata.github.io/commits/master)
@@ -17,6 +21,8 @@
   </a>
   </kbd>
 </p>
+
+This repo is a clone of [original repo](https://github.com/varadbhogayata/varadbhogayata.github.io).
 
 :star: Star me on GitHub — it helps!
 
