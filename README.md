@@ -1,11 +1,13 @@
-Activity 1
-<img width="746" alt="image" src="https://github.com/user-attachments/assets/85140a5a-28d9-4f3f-bffe-c1a84ceb957b">
+Activity 1,2,3,4,5 -> repository
+<img width="1273" alt="image" src="https://github.com/user-attachments/assets/ce1e89ae-7b12-426b-a9b3-c071d2aefac8">
 
-Activity 2
-<img width="876" alt="image" src="https://github.com/user-attachments/assets/81a8d095-e7c9-4392-a42a-baab89ed0898">
+Activity 2: <img width="1305" alt="image" src="https://github.com/user-attachments/assets/06229a66-d77b-41a9-a4b5-0cc470410226">
 
-Acitivity 2 updates 
-<img width="925" alt="image" src="https://github.com/user-attachments/assets/31868f54-70df-4c2d-bf4c-b7b694ad288c">
+Acitivty 3: <img width="1440" alt="image" src="https://github.com/user-attachments/assets/d9f477d9-8b77-4045-b6b9-9770eca37061">
+
+Activity 4: <img width="1306" alt="image" src="https://github.com/user-attachments/assets/7f358cfe-3cb5-4786-b62f-6e47171a0526">
+
+Activity 5: <img width="1434" alt="image" src="https://github.com/user-attachments/assets/ef3cb011-32de-4ad3-9592-b01183f40283">
 
 
 # Personal Portfolio ⚡️ 
