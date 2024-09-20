@@ -396,8 +396,8 @@
         </div>
       </div>
 
-      <!-- Othello Computer Engine Project -->
-      <div class="col s12 m6 l4 project-item">
+      <!-- Othello Computer Engine Project (Hidden by Default) -->
+      <div class="col s12 m6 l4 project-item hidden" id="othello-project"> <!-- This is hidden by default -->
         <div class="card medium z-depth-3" style="border-radius:10px;">
           <div class="card-image waves-effect waves-block waves-light" style="height: 200px; overflow:hidden;">
             <img alt="Othello Computer Engine Project" src="/assets/img/project-blog-logo.jpg" style="width:100%; object-fit:cover;" class="activator" />
@@ -414,12 +414,21 @@
 
     <!-- Load More Button -->
     <div class="text-center">
-      <button id="load-more" class="btn load-more-btn teal lighten-1 white-text waves-effect waves-light" style="padding: 10px 20px; border-radius: 25px; font-size: 16px;">
+      <button id="load-more" class="btn load-more-btn teal lighten-1 white-text waves-effect waves-light" style="padding: 10px 20px; border-radius: 25px; font-size: 16px;" onclick="showHiddenProject()">
         Load More Projects
       </button>
     </div>
   </div>
 </section>
+
+<!-- JavaScript to Show Hidden Project -->
+<script>
+  function showHiddenProject() {
+    document.getElementById('othello-project').classList.remove('hidden'); // Show the hidden project
+    document.getElementById('load-more').style.display = 'none'; // Hide the load more button after clicking
+  }
+</script>
+
 
     
 <!-- Fifth Section: Skills -->
