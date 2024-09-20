@@ -366,7 +366,7 @@
   <h3 class="page-title white-text teal">Projects</h3>
   <div class="container">
     <div class="row" id="project-list">
-      <!-- Dark Maps Project -->
+      <!-- Visible Projects -->
       <div class="col s12 m6 l4 project-item">
         <div class="card medium z-depth-3" style="border-radius:10px;"> <!-- Added shadow and rounded corners -->
           <div class="card-image waves-effect waves-block waves-light" style="height: 200px; overflow:hidden;">
@@ -381,7 +381,6 @@
         </div>
       </div>
 
-      <!-- SpaceWars 2071 Project -->
       <div class="col s12 m6 l4 project-item">
         <div class="card medium z-depth-3" style="border-radius:10px;">
           <div class="card-image waves-effect waves-block waves-light" style="height: 200px; overflow:hidden;">
@@ -396,8 +395,8 @@
         </div>
       </div>
 
-      <!-- Othello Computer Engine Project (Hidden by Default) -->
-      <div class="col s12 m6 l4 project-item hidden" id="othello-project"> <!-- This is hidden by default -->
+      <!-- Hidden Projects (to be revealed with the load more button) -->
+      <div class="col s12 m6 l4 project-item hidden" style="display: none;"> <!-- Initially hidden project -->
         <div class="card medium z-depth-3" style="border-radius:10px;">
           <div class="card-image waves-effect waves-block waves-light" style="height: 200px; overflow:hidden;">
             <img alt="Othello Computer Engine Project" src="/assets/img/project-blog-logo.jpg" style="width:100%; object-fit:cover;" class="activator" />
@@ -410,24 +409,29 @@
           </div>
         </div>
       </div>
+
     </div>
 
     <!-- Load More Button -->
     <div class="text-center">
-      <button id="load-more" class="btn load-more-btn teal lighten-1 white-text waves-effect waves-light" style="padding: 10px 20px; border-radius: 25px; font-size: 16px;" onclick="showHiddenProject()">
+      <button id="load-more" class="btn load-more-btn teal lighten-1 white-text waves-effect waves-light" style="padding: 10px 20px; border-radius: 25px; font-size: 16px;">
         Load More Projects
       </button>
     </div>
   </div>
 </section>
 
-<!-- JavaScript to Show Hidden Project -->
+<!-- Add this JavaScript to reveal the hidden project -->
 <script>
-  function showHiddenProject() {
-    document.getElementById('othello-project').classList.remove('hidden'); // Show the hidden project
-    document.getElementById('load-more').style.display = 'none'; // Hide the load more button after clicking
-  }
+  document.getElementById('load-more').addEventListener('click', function() {
+    var hiddenProject = document.querySelector('.project-item.hidden');
+    if (hiddenProject) {
+      hiddenProject.style.display = 'block';
+    }
+    this.style.display = 'none';  // Hide the "Load More" button after revealing the project
+  });
 </script>
+
 
 
     
